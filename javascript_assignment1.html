@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>logical exericise</title>
+    <script type="text/javascript">
+           /*basic*/
+       
+      /* 3q*/
+        
+        
+        function numheads(a)
+        {
+            var result=0;
+            while(a>0)
+                { 
+                    if(Math.floor(Math.random()*2)==1)
+                        {
+                            result=result+1;
+                        }
+                    a=a-1;
+                }
+            return result;
+        }
+        document.write("<p> number of heads  <br/>"+numheads(10)+"</p>");
+        
+        
+        
+        /*    7Q  */
+        
+        function randommessage()
+        {
+            if(Math.floor(Math.random()*2)==1)
+                {
+                    document.write("<p>Have a Good day!</p>")
+                }
+            else{
+                 document.write("<p>Have a BAD day!</p>")
+            }
+        }
+        randommessage();
+        
+        
+        
+        /* Basic js  */
+        /*  */
+        
+    </script>
+    
+    </head>
+<body>
+
+    </body>
+
+</html>
